@@ -1,0 +1,99 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+
+#app1{
+    position: relative;
+    width: 60%;
+    min-height: 100%;
+    background-image: url(undraw_Login_re_4vu2.png);
+    background-position: right;
+    background-size: 50% 101%;
+    background-repeat: no-repeat;
+  }
+#app{
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    background-image: url(undraw_Code_thinking_re_gka2.png);
+    background-position: left;
+    background-size: 50% 101%;
+    background-repeat: no-repeat;
+  }
+  .formlogin{
+  position: absolute;
+    width: 50%;
+    background-color: #fff;
+    min-height: 100%;
+    border-right: 1px solid white;
+  }
+
+.formregister{
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    background-color: #fff;
+    min-height: 100%;
+    border-left: 1px solid white;
+  }
+
+  
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin: 10px;
+}
+.text{
+  display: flex;
+  align-items:flex-start;
+  justify-content: start;
+  flex-direction: column;
+  margin: 10px;
+  font-size: 20px;
+}
+.input{
+width: 80%;
+height: 30px;
+border-radius: 3px;
+}
+.button{
+  background-color: rgb(117, 117, 245); /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  align-items:center;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.error{
+  color: red;
+}
+.input-success{
+  border-color: rgb(0, 255, 0);
+}
+.input-error{
+    border-color: red;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  margin: 10px 5px;
+}
